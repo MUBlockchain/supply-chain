@@ -1,0 +1,27 @@
+
+/* Content for main app interface */
+h1:first-child {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.app__add__item {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+
+.item__container {
+  text-align: center;
+}
+
+/* Content for item modal */
