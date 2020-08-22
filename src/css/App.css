@@ -20,8 +20,38 @@ p {
   position: relative;
 }
 
-.item__container {
+.item__shop__container {
   text-align: center;
 }
 
+.item__container {
+  max-height: 300px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
 /* Content for item modal */
+
+#addItemModal__inputFields {
+  text-align: center;
+}
+
+/*  Content for items */
+
+.item__div {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.item__div > img {
+  width: 150px;
+  height: 150px;
+}
+
+.item__div > div {
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  font-size: 12px;
+}
