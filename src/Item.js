@@ -59,7 +59,7 @@ function Item(props) {
         <img src={require('./images/Shoppingcart.png')} alt="Item Image"/>
         <div>
         <p>Name: {name}</p>
-        <p>Price: ${price}</p>
+        <p>Price: {price} WEI</p>
         <p>Buyer: {parseInt(buyer) ? buyer_shorthand: 'None'}</p>
         <p>Seller: {seller_shorthand}</p>
         </div>
