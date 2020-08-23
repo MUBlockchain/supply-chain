@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "buildcontracts": "truffle compile && rm -rf ./src/contracts && mv ./build/contracts ./src && rm -rf ./build"
   },
   "eslintConfig": {
     "extends": "react-app"
