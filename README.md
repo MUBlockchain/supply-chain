@@ -5,7 +5,7 @@ This application is a front-end integration of the supply-chain smart contract a
 
 Note: Due to high traffic / usage, expect much slower speeds on rinkeby. 
  
-## ENV Setup (required for rinkeby setup)
+## ENV Setup (required for rinkeby connection)
 
 * You will need to change the name of the ".example.env" file to ".env". 
 
