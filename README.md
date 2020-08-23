@@ -1,13 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This application is a front-end integration of the supply-chain smart contract activity provided by Consensys Academy. The front-end was created by using react and connects to the Soldity backend via Web3. The truffle.js file allows you to connect to a personal blockchain on your local machine, or by connecting to your own personal instance of the rinkeby testnet.
+
+Note: Due to high traffic / usage, expect much slower speeds on rinkeby. 
+ 
 ## ENV Setup (required for rinkeby setup)
 
 * You will need to change the name of the ".example.env" file to ".env". 
 
-* Inside of the env you will see a variable named "MNEMONIC". This will require you to access your mnemonic that MetaMask provides you
+* Inside of the env you will see a variable named "MNEMONIC". This will require you to access your mnemonic that MetaMask provides you.
 
 * Inside of the env you will see a variable named "INFURA". You need to get your Infura id from the URL provided by your customized Infura Ethereum node.
-  The URL will take the following form: "https://rinkeby.infura.io/v3/<your id here>"
+  The URL will take the following form: "https://rinkeby.infura.io/v3/<your id here>".
 
 ## Available Scripts
 
